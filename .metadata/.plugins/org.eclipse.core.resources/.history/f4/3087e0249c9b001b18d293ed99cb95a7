@@ -1,0 +1,7 @@
+package graphs;
+
+public class Flow {
+	public Flow(Graph graph) {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package graph;
+
+public class Floyd {
+	private Integer[][] matrix;
+	private Intger [][] path;
+	public Floyd (Integer[][] matrix) {
+		this.matrix = matrix;
+	}
+	public void solve () {
+		
+	}
+}

@@ -1,0 +1,13 @@
+package graphs;
+
+public class Flow {
+	private Graph graph;
+	public Flow(Graph graph) {
+		
+	}
+
+	public void solve(Vertex source, Vertex destination) {
+		// TODO Auto-generated method stub
+		
+	}
+}

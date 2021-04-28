@@ -1,0 +1,14 @@
+package graphs;
+
+public class Flow {
+	private Graph graph;
+	private Vertex source;
+	public Flow(Graph graph) {
+		this.graph = graph;
+	}
+
+	public void solve(Vertex source, Vertex destination) {
+		// TODO Auto-generated method stub
+		
+	}
+}

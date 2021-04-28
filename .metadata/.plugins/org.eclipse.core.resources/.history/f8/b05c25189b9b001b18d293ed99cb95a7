@@ -1,0 +1,18 @@
+import graphs.Vertex;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Vertex v1 = new Vertex("V1");
+ 		Vertex v2 = new Vertex("V2");
+ 		Vertex v3 = new Vertex("V3");
+ 		Vertex v4 = new Vertex("V4");
+ 		Vertex v5 = new Vertex("V5");
+ 		v1.connect(v1, 10);
+ 		v1.connect(v3,  7);
+ 		v2.connect(v1, 5);
+ 		
+	}
+
+}

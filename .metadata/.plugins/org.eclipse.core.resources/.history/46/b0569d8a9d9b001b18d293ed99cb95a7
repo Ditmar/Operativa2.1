@@ -1,0 +1,7 @@
+package graphs;
+
+public class Label {
+	private Integer weigth;
+	private Vertex parent;
+	private Vertex source;
+}

@@ -1,0 +1,19 @@
+package graph;
+
+public class Floyd {
+	private Integer[][] matrix;
+	private Integer [][] path;
+	public Floyd (Integer[][] matrix) {
+		this.matrix = matrix;
+		path = new Integer[this.matrix.length][this.matrix.length];
+		// init valores de path;
+		for (Integer i = 0; i < this.matrix.length; i++) {
+			for (Integer j = 0; j < this.matrix.length; j++) {
+				this.path[][]
+			}
+		}
+	}
+	public void solve () {
+		
+	}
+}

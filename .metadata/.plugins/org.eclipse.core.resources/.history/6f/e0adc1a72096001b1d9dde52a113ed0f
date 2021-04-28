@@ -1,0 +1,8 @@
+package graph;
+
+public class Floyd {
+	private Integer[][] matrix;
+	public Floyd (Integer[][] matrix) {
+		this.matrix = matrix;
+	}
+}

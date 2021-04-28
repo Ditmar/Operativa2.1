@@ -1,0 +1,33 @@
+package graphs;
+
+import java.util.ArrayList;
+
+public class Flow {
+	private Graph graph;
+	private Vertex source;
+	private Vertex destination;
+	private ArrayList<Label> label; 
+	public Flow(Graph graph) {
+		this.graph = graph;
+		this.label = new ArrayList();
+	}
+
+	public void solve(Vertex source, Vertex destination) {
+		// TODO Auto-generated method stub
+		this.source = source;
+		this.destination = destination;
+		Vertex currentVertex = source;
+		Label label = new Label(9999, null);
+		label.setSource(source);
+		source.setVisited(true);
+		this.label.add(label);
+		Boolean repeat = true;
+		while (repeat) {
+			Vertex pathVertex = maxEdge(currentVertex);
+		}
+	}
+	private Vertex maxEdge(Vertex source) {
+		
+		return null;
+	}
+}

@@ -1,0 +1,10 @@
+package graphs;
+
+public class Label {
+	private Integer weigth;
+	private Vertex parent;
+	private Vertex source;
+	public Label(Integer weigth) {
+		this.weigth = weigth; 
+	}
+}
